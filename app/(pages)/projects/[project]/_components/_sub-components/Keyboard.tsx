@@ -110,8 +110,8 @@ const Keyboard: NextPage = () => {
       if (!files || files.length === 0) return;
 
       // Limit to 2 attachments
-      if (attachments.length >= 2) {
-        alert("You can only attach up to 2 files");
+      if (attachments.length >= 5) {
+        alert("You can only attach up to 5 files");
         return;
       }
 
